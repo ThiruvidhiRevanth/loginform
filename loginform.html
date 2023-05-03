@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body{background:linear-gradient(
+        to left,
+        pink 0%,
+        pink 50%,
+        paleturquoise 50%,
+        paleturquoise 100%
+
+      );}
+      #square {
+  border-radius: 25px;
+  border: 2px solid black;
+  background:linear-gradient(
+        to right,
+        pink 0%,
+        pink 50%,
+        paleturquoise 50%,
+        paleturquoise 100%
+
+      );
+
+  width: 600px;
+  height: 400px;
+}
+#circle {
+border-radius: 50%;
+width:60px;
+height:10px;
+border-color: 2px solid black;
+background-image:"C:\Users\lenovo\Desktop\see-no-evil-monkey-joypixels.gif" ;
+}
+
+#wel {
+    position:absolute;
+    top: 108px;
+    left: 278px;
+}
+@media screen and (min-width: 700px) {
+   #wel {
+       position:absolute;
+       top: 108px;
+       left: 250px;
+   }
+}
+@media screen and (min-width: 1600px) {
+   #wel {
+       position:absolute;
+       top: 108px;
+       left: 400px;
+   }
+}
+
+
+    </style>
+   
+     
+            <div id="wel">
+                <body >
+                <p id="square"><br> <br>
+                <p1 id="circle">
+                 
+                <img id =myImage src="https://github.com/ThiruvidhiRevanth/loginform/blob/main/hear-no-evil-monkey-joypixels.gif?raw=true" height="80px" style="position: absolute;left: 260px;top:80px" > 
+                <input onclick="document.getElementById('myImage').src='https://github.com/ThiruvidhiRevanth/loginform/blob/main/hear-no-evil-monkey-joypixels.gif?raw=true'" type="text" id="myText" placeholder="Username" style="border-radius: 25px;background-color: rgb(236, 230, 230);height: 32px;width:250px;position:absolute;left:30%;top: 40%;text-align:left;">
+                 <input onclick="document.getElementById('myImage').src='https://github.com/ThiruvidhiRevanth/loginform/blob/main/see-no-evil-monkey-joypixels.gif?raw=true'"type="password" id="myText" placeholder="password"  style="border-radius: 25px;background-color: rgb(236, 230, 230);height: 32px;width:250px;position:absolute;left:30%;top: 52%;text-align:left;">
+                <a href="#" style="position:absolute;left:32%;top: 62%;text-align:left;">Forget password?</a>
+                <button style="position:absolute;left:46%;top: 70%;text-align:center;width: 10%;">Login</button>
+             </p></p1></p>
+           
+                  
+                <script>
+                  
+                // Here the value is stored in new variable x 
+                function myFunction() {
+                    var x = document.getElementById("myText").value;
+                    document.getElementById('myImage').src='C:\Users\lenovo\Desktop\see-no-evil-monkey-joypixels.gif' ;
+                }
+                </script>
+                <p id ="circle"></p></body></div>
+  
+        
+        
+
+    </head>
+</html>
